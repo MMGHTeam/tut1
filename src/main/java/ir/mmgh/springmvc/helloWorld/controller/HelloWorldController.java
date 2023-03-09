@@ -20,7 +20,7 @@ public class HelloWorldController {
         return "helloworld";
     }
 
-    @RequestMapping("/helloworld2")
+    @RequestMapping("/helloworld")
     public String handler2(Model model) {
 
         HelloWorld helloWorld2 = new HelloWorld();
