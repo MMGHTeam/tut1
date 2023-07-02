@@ -20,13 +20,5 @@ public class HelloWorldController {
         return "helloworld";
     }
 
-    @RequestMapping("/helloworld")
-    public String handler2(Model model) {
-
-        HelloWorld helloWorld2 = new HelloWorld();
-        helloWorld2.setMessage("Hello World Example Using Spring MVC 52!!!");
-        helloWorld2.setDateTime(LocalDateTime.now().toString());
-        model.addAttribute("helloWorld2", helloWorld2);
-        return "helloworld2";
-    }
+    
 }
